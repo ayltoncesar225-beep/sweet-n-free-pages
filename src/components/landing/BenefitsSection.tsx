@@ -35,58 +35,58 @@ const benefits = [
 
 const BenefitsSection = () => {
   return (
-    <section className="py-20 bg-card">
+    <section className="py-12 md:py-20 bg-card">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="inline-block bg-terracotta-light text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
+        <div className="text-center max-w-3xl mx-auto mb-10 md:mb-16">
+          <span className="inline-block bg-terracotta-light text-primary px-3 py-1.5 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-medium mb-3 md:mb-4">
             Por que escolher nosso ebook?
           </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-chocolate mb-6">
+          <h2 className="font-display text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-chocolate mb-4 md:mb-6">
             Benefícios que Transformam sua{" "}
             <span className="text-primary">Cozinha</span>
           </h2>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-base md:text-lg text-muted-foreground">
             Descubra como é fácil preparar sobremesas incríveis que cuidam da sua saúde
           </p>
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="group p-6 bg-background rounded-2xl shadow-soft hover:shadow-medium transition-all duration-300 hover:-translate-y-1"
+              className="group p-5 md:p-6 bg-background rounded-xl md:rounded-2xl shadow-soft hover:shadow-medium transition-all duration-300 hover:-translate-y-1"
             >
-              <div className="w-14 h-14 bg-terracotta-light rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors duration-300">
-                <benefit.icon className="w-7 h-7 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
+              <div className="w-12 h-12 md:w-14 md:h-14 bg-terracotta-light rounded-lg md:rounded-xl flex items-center justify-center mb-3 md:mb-4 group-hover:bg-primary transition-colors duration-300">
+                <benefit.icon className="w-6 h-6 md:w-7 md:h-7 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
               </div>
-              <h3 className="font-display text-xl font-semibold text-foreground mb-2">
+              <h3 className="font-display text-lg md:text-xl font-semibold text-foreground mb-1 md:mb-2">
                 {benefit.title}
               </h3>
-              <p className="text-muted-foreground">{benefit.description}</p>
+              <p className="text-sm md:text-base text-muted-foreground">{benefit.description}</p>
             </div>
           ))}
         </div>
 
         {/* Bottom highlight */}
-        <div className="mt-16 p-8 bg-sage-light rounded-2xl">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <div className="flex items-center gap-4">
-              <div className="w-16 h-16 bg-sage rounded-full flex items-center justify-center">
-                <Check className="w-8 h-8 text-accent-foreground" />
+        <div className="mt-10 md:mt-16 p-5 md:p-8 bg-sage-light rounded-xl md:rounded-2xl">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-6">
+            <div className="flex items-center gap-3 md:gap-4 text-center md:text-left">
+              <div className="w-12 h-12 md:w-16 md:h-16 bg-sage rounded-full flex items-center justify-center flex-shrink-0">
+                <Check className="w-6 h-6 md:w-8 md:h-8 text-accent-foreground" />
               </div>
               <div>
-                <h3 className="font-display text-xl font-bold text-foreground">
+                <h3 className="font-display text-lg md:text-xl font-bold text-foreground">
                   Perfeito para Vender ou Presentear
                 </h3>
-                <p className="text-muted-foreground">
+                <p className="text-sm md:text-base text-muted-foreground">
                   Amplie seu cardápio de confeitaria saudável
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-2 text-sage font-semibold">
-              <span className="text-3xl">🎁</span>
+            <div className="flex items-center gap-2 text-sage font-semibold text-sm md:text-base">
+              <span className="text-2xl md:text-3xl">🎁</span>
               <span>Bônus exclusivo incluído!</span>
             </div>
           </div>

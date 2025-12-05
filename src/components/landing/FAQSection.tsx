@@ -45,35 +45,35 @@ const faqs = [
 
 const FAQSection = () => {
   return (
-    <section className="py-20 bg-secondary">
+    <section className="py-12 md:py-20 bg-secondary">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
-          <span className="inline-block bg-terracotta-light text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
+        <div className="text-center max-w-3xl mx-auto mb-8 md:mb-12">
+          <span className="inline-block bg-terracotta-light text-primary px-3 py-1.5 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-medium mb-3 md:mb-4">
             Dúvidas Frequentes
           </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-chocolate mb-6">
+          <h2 className="font-display text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-chocolate mb-4 md:mb-6">
             Perguntas{" "}
             <span className="text-primary">Respondidas</span>
           </h2>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-base md:text-lg text-muted-foreground">
             Tire suas dúvidas antes de garantir seu ebook
           </p>
         </div>
 
         {/* FAQ Accordion */}
         <div className="max-w-3xl mx-auto">
-          <Accordion type="single" collapsible className="space-y-4">
+          <Accordion type="single" collapsible className="space-y-3 md:space-y-4">
             {faqs.map((faq, index) => (
               <AccordionItem
                 key={index}
                 value={`item-${index}`}
-                className="bg-card rounded-xl px-6 border-none shadow-soft"
+                className="bg-card rounded-lg md:rounded-xl px-4 md:px-6 border-none shadow-soft"
               >
-                <AccordionTrigger className="text-left font-display text-lg font-semibold text-foreground hover:text-primary hover:no-underline py-6">
+                <AccordionTrigger className="text-left font-display text-base md:text-lg font-semibold text-foreground hover:text-primary hover:no-underline py-4 md:py-6">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground pb-6">
+                <AccordionContent className="text-muted-foreground pb-4 md:pb-6 text-sm md:text-base">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
@@ -82,13 +82,13 @@ const FAQSection = () => {
         </div>
 
         {/* Bottom CTA */}
-        <div className="mt-12 text-center">
-          <p className="text-muted-foreground mb-4">
+        <div className="mt-8 md:mt-12 text-center">
+          <p className="text-muted-foreground text-sm md:text-base mb-3 md:mb-4">
             Ainda tem dúvidas? Entre em contato conosco!
           </p>
           <a
             href="mailto:contato@receitassaudaveis.com"
-            className="text-primary font-medium hover:underline"
+            className="text-primary font-medium hover:underline text-sm md:text-base"
           >
             contato@receitassaudaveis.com
           </a>
