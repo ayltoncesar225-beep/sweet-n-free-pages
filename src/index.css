@@ -150,7 +150,7 @@
 @keyframes slideUp {
   from { 
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(20px);
   }
   to { 
     opacity: 1;
@@ -167,4 +167,10 @@
     opacity: 1;
     transform: scale(1);
   }
+}
+
+/* Mobile safe area for notched devices */
+.safe-area-inset {
+  padding-top: env(safe-area-inset-top, 0);
+  padding-bottom: env(safe-area-inset-bottom, 0);
 }
