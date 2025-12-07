@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Check, Gift, Shield, Zap, Star, Clock } from "lucide-react";
 import type { QuizAnswer } from "./QuizContainer";
 import heroCakes from "@/assets/hero-cakes.jpg";
+import { trackInitiateCheckout } from "@/lib/facebook-pixel";
 
 const CHECKOUT_URL = "https://tinyurl.com/bde3bksm";
 
@@ -110,8 +111,18 @@ const QuizResult = ({ answers, onRestart }: QuizResultProps) => {
           </div>
 
           {/* CTA */}
-          <Button variant="cta" size="xl" className="w-full text-base py-5" asChild>
-            <a href={CHECKOUT_URL} target="_blank" rel="noopener noreferrer">
+          <Button 
+            variant="cta" 
+            size="xl" 
+            className="w-full text-base py-5" 
+            asChild
+          >
+            <a 
+              href={CHECKOUT_URL} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              onClick={trackInitiateCheckout}
+            >
               Quero Minhas Receitas Agora!
             </a>
           </Button>
