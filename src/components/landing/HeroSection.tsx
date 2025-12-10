@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChefHat, Heart, Sparkles } from "lucide-react";
 import heroCakes from "@/assets/hero-cakes.jpg";
 
-const CHECKOUT_URL = "https://tinyurl.com/bde3bksm";
+const CHECKOUT_URL = "https://pay.kiwify.com.br/aB0AfY5";
 
 const HeroSection = () => {
   return (
