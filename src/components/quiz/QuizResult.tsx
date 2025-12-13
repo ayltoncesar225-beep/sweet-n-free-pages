@@ -28,12 +28,12 @@ const QuizResult = ({ answers, onRestart }: QuizResultProps) => {
       return "Perfeito! Você vai adorar nossas receitas que cuidam da sua saúde sem abrir mão do sabor.";
     }
     if (reasons?.answer === "family") {
-      return "Maravilha! Sua família vai se deliciar com bolos saudáveis que todos podem comer!";
+      return "Maravilha! Sua família vai se deliciar com docess saudáveis que todos podem comer!";
     }
     if (reasons?.answer === "business") {
       return "Excelente escolha! Essas receitas são perfeitas para vender e lucrar com produtos diferenciados!";
     }
-    return "Ótimo! Agora você pode comer bolo sem nenhuma culpa e com muito sabor!";
+    return "Ótimo! Agora você pode comer doce sem nenhuma culpa e com muito sabor!";
   };
 
   return (
@@ -153,7 +153,7 @@ const QuizResult = ({ answers, onRestart }: QuizResultProps) => {
           ))}
         </div>
         <p className="text-sm text-foreground italic mb-2">
-          "Finalmente posso comer bolo sem passar mal! As receitas são deliciosas e super fáceis."
+          "Finalmente posso comer Doces sem passar mal! As receitas são deliciosas e super fáceis."
         </p>
         <p className="text-xs text-muted-foreground font-medium">
           — Maria Clara, São Paulo
