@@ -4,10 +4,10 @@ import type { QuizAnswer } from "./QuizContainer";
 import heroCakes from "@/assets/hero-cakes.jpg";
 import { trackInitiateCheckout } from "@/lib/facebook-pixel";
 
-const CHECKOUT_URL = "https://tinyurl.com/bde3bksm";
+const CHECKOUT_URL = "https://pay.cakto.com.br/k3266ew?affiliate=JBer4Ln4";
 
 const benefits = [
-  "20 receitas exclusivas testadas",
+  "150 receitas exclusivas testadas",
   "Passo a passo detalhado",
   "Ingredientes acessíveis",
   "Dicas profissionais",
@@ -57,7 +57,7 @@ const QuizResult = ({ answers, onRestart }: QuizResultProps) => {
         <div className="relative">
           <img
             src={heroCakes}
-            alt="Ebook 20 Receitas de Bolos Saudáveis"
+            alt="Ebook 150 Receitas de Doces Saudáveis"
             className="w-full h-40 object-cover"
           />
           <div className="absolute top-3 right-3 bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-bold flex items-center gap-1">
@@ -69,7 +69,7 @@ const QuizResult = ({ answers, onRestart }: QuizResultProps) => {
         {/* Content */}
         <div className="p-5">
           <h2 className="font-display text-lg font-bold text-foreground mb-1">
-            20 Receitas de Bolos Saudáveis
+            150 Receitas de Doces Saudáveis
           </h2>
           <p className="text-xs text-muted-foreground mb-4">
             Sem Glúten • Sem Lactose • Sem Açúcar
@@ -78,10 +78,10 @@ const QuizResult = ({ answers, onRestart }: QuizResultProps) => {
           {/* Price */}
           <div className="flex items-baseline gap-2 mb-4">
             <span className="text-lg text-muted-foreground line-through">
-              R$ 49,90
+              R$ 67,00
             </span>
             <span className="font-display text-3xl font-bold text-primary">
-              R$ 14,90
+              R$ 19,90
             </span>
           </div>
 
