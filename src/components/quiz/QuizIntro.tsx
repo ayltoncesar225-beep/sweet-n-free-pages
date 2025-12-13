@@ -13,7 +13,7 @@ const QuizIntro = ({ onStart }: QuizIntroProps) => {
       <div className="relative rounded-2xl overflow-hidden shadow-medium mb-6 animate-fade-in">
         <img
           src={heroCakes}
-          alt="Bolos saudáveis"
+          alt="Doces saudáveis"
           className="w-full h-48 object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-chocolate/60 to-transparent" />
@@ -29,7 +29,7 @@ const QuizIntro = ({ onStart }: QuizIntroProps) => {
       <div className="flex-1 flex flex-col justify-center animate-slide-up">
         <h1 className="font-display text-2xl sm:text-3xl font-bold text-chocolate text-center mb-3 leading-tight">
           Descubra Como Fazer{" "}
-          <span className="text-primary">Bolos Deliciosos</span> Sem Culpa!
+          <span className="text-primary">Doces Deliciosos</span> Sem Culpa!
         </h1>
 
         <p className="text-muted-foreground text-center text-base mb-6">
@@ -41,7 +41,7 @@ const QuizIntro = ({ onStart }: QuizIntroProps) => {
         <div className="flex justify-center gap-4 mb-8">
           <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
             <ChefHat className="w-4 h-4 text-primary" />
-            <span>20 Receitas</span>
+            <span>150 Receitas</span>
           </div>
           <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
             <Heart className="w-4 h-4 text-primary" />
