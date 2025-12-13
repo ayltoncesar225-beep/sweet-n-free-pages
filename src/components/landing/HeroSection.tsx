@@ -24,7 +24,7 @@ const HeroSection = () => {
             {/* Headline */}
             <h1 className="font-display text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-chocolate leading-tight">
               Aprenda a Fazer{" "}
-              <span className="text-primary">Bolos Deliciosos</span> e Saudáveis
+              <span className="text-primary">Doces Deliciosos</span> e Saudáveis
             </h1>
 
             {/* Subheadline */}
@@ -33,7 +33,7 @@ const HeroSection = () => {
             </p>
 
             <p className="text-base md:text-lg text-muted-foreground max-w-xl">
-              20 receitas exclusivas para você saborear bolos incríveis sem abrir mão da saúde. 
+              150 Receitas Exclusivas para você saborear doces incríveis sem abrir mão da saúde. 
               Perfeito para toda a família!
             </p>
 
@@ -41,7 +41,7 @@ const HeroSection = () => {
             <div className="flex flex-wrap gap-3 md:gap-4">
               <div className="flex items-center gap-2 text-xs md:text-sm text-muted-foreground">
                 <ChefHat className="w-4 h-4 md:w-5 md:h-5 text-primary" />
-                <span>20 Receitas Exclusivas</span>
+                <span> 150 Receitas Exclusivas</span>
               </div>
               <div className="flex items-center gap-2 text-xs md:text-sm text-muted-foreground">
                 <Heart className="w-4 h-4 md:w-5 md:h-5 text-primary" />
