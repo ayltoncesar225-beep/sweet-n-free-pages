@@ -4,7 +4,7 @@ import type { QuizAnswer } from "./QuizContainer";
 import heroCakes from "@/assets/hero-cakes.jpg";
 import { trackInitiateCheckout } from "@/lib/facebook-pixel";
 
-const CHECKOUT_URL = "https://pay.cakto.com.br/k3266ew?affiliate=JBer4Ln4";
+const CHECKOUT_URL = "https://pay.cakto.com.br/enj6cfg_676507?affiliate=JBer4Ln4";
 
 const benefits = [
   "150 receitas exclusivas testadas",
@@ -78,10 +78,10 @@ const QuizResult = ({ answers, onRestart }: QuizResultProps) => {
           {/* Price */}
           <div className="flex items-baseline gap-2 mb-4">
             <span className="text-lg text-muted-foreground line-through">
-              R$ 67,00
+              R$ 36,90
             </span>
             <span className="font-display text-3xl font-bold text-primary">
-              R$ 19,90
+              R$ 14,90
             </span>
           </div>
 
