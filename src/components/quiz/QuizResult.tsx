@@ -28,7 +28,7 @@ const QuizResult = ({ answers, onRestart }: QuizResultProps) => {
       return "Perfeito! Você vai adorar nossas receitas que cuidam da sua saúde sem abrir mão do sabor.";
     }
     if (reasons?.answer === "family") {
-      return "Maravilha! Sua família vai se deliciar com docess saudáveis que todos podem comer!";
+      return "Maravilha! Sua família vai se deliciar com doces saudáveis que todos podem comer!";
     }
     if (reasons?.answer === "business") {
       return "Excelente escolha! Essas receitas são perfeitas para vender e lucrar com produtos diferenciados!";
