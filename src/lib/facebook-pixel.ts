@@ -28,3 +28,8 @@ export const trackCompleteRegistration = () => {
     window.fbq('track', 'CompleteRegistration');
   }
 };
+fbq('init', '885125080847536', {
+  em: 'email@email.com',   // Values will be hashed automatically by the pixel using SHA-256
+  ph: '1234567890',
+  ...
+});
