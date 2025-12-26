@@ -7,7 +7,7 @@ import { trackInitiateCheckout } from "@/lib/facebook-pixel";
 const CHECKOUT_URL = "https://pay.kiwify.com.br/aB0AfY5";
 
 const benefits = [
-  "150 receitas exclusivas testadas",
+  "20 receitas exclusivas testadas",
   "Passo a passo detalhado",
   "Ingredientes acessíveis",
   "Dicas profissionais",
