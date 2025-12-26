@@ -28,12 +28,12 @@ const QuizResult = ({ answers, onRestart }: QuizResultProps) => {
       return "Perfeito! Você vai adorar nossas receitas que cuidam da sua saúde sem abrir mão do sabor.";
     }
     if (reasons?.answer === "family") {
-      return "Maravilha! Sua família vai se deliciar com doces saudáveis que todos podem comer!";
+      return "Maravilha! Sua família vai se deliciar com bolos saudáveis que todos podem comer!";
     }
     if (reasons?.answer === "business") {
       return "Excelente escolha! Essas receitas são perfeitas para vender e lucrar com produtos diferenciados!";
     }
-    return "Ótimo! Agora você pode comer doce sem nenhuma culpa e com muito sabor!";
+    return "Ótimo! Agora você pode comer bolos sem nenhuma culpa e com muito sabor!";
   };
 
   return (
@@ -57,7 +57,7 @@ const QuizResult = ({ answers, onRestart }: QuizResultProps) => {
         <div className="relative">
           <img
             src={heroCakes}
-            alt="Ebook 150 Receitas de Doces Saudáveis"
+            alt="Ebook 20 Receitas de Bolos Saudáveis"
             className="w-full h-40 object-cover"
           />
           <div className="absolute top-3 right-3 bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-bold flex items-center gap-1">
@@ -69,7 +69,7 @@ const QuizResult = ({ answers, onRestart }: QuizResultProps) => {
         {/* Content */}
         <div className="p-5">
           <h2 className="font-display text-lg font-bold text-foreground mb-1">
-            150 Receitas de Doces Saudáveis
+           20 Receitas de Bolos Saudáveis
           </h2>
           <p className="text-xs text-muted-foreground mb-4">
             Sem Glúten • Sem Lactose • Sem Açúcar
@@ -78,10 +78,10 @@ const QuizResult = ({ answers, onRestart }: QuizResultProps) => {
           {/* Price */}
           <div className="flex items-baseline gap-2 mb-4">
             <span className="text-lg text-muted-foreground line-through">
-              R$ 36,90
+              R$ 47,90
             </span>
             <span className="font-display text-3xl font-bold text-primary">
-              R$ 14,90
+              R$ 19,90
             </span>
           </div>
 
