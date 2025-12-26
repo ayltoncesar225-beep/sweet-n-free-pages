@@ -4,7 +4,7 @@ import type { QuizAnswer } from "./QuizContainer";
 import heroCakes from "@/assets/hero-cakes.jpg";
 import { trackInitiateCheckout } from "@/lib/facebook-pixel";
 
-const CHECKOUT_URL = "https://pay.cakto.com.br/enj6cfg_676507?affiliate=JBer4Ln4";
+const CHECKOUT_URL = "https://pay.kiwify.com.br/aB0AfY5";
 
 const benefits = [
   "150 receitas exclusivas testadas",
