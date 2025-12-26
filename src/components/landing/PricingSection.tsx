@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Check, Gift, Zap, Clock } from "lucide-react";
 
-const CHECKOUT_URL = "https://tinyurl.com/bde3bksm";
+const CHECKOUT_URL = "https://pay.kiwify.com.br/aB0AfY5";
 
 const includedFeatures = [
   "20 receitas exclusivas testadas",
