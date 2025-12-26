@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Heart } from "lucide-react";
 
-const CHECKOUT_URL = "https://tinyurl.com/bde3bksm";
+const CHECKOUT_URL = "https://pay.kiwify.com.br/aB0AfY5";
 
 const FooterSection = () => {
   return (
@@ -24,7 +24,7 @@ const FooterSection = () => {
             asChild
           >
             <a href={CHECKOUT_URL} target="_blank" rel="noopener noreferrer">
-              Quero Meu Ebook por R$ 14,90!
+              Quero Meu Ebook por R$ 19,90!
             </a>
           </Button>
           <p className="text-cream/60 text-xs md:text-sm mt-4">
